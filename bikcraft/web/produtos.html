@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Bikcraft</title>
+    <title>Bikcraft - Produtos</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 
 <body>
@@ -19,8 +20,8 @@
             </a>
             <nav class="grid-12 header_menu">
                 <ul>
-                    <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -45,7 +46,7 @@
         </div>
         <div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft">
         </div>
-        <div class="grid-8">
+        <div class="grid-8 produto_info">
             <p>Percebemos, cada vez mais, que a contínua expansão
                 de nossa atividade estimula a padronização de alternativas às soluções ortodoxas.</p>
             <ul>
@@ -57,6 +58,79 @@
         </div>
     </section>
 
+    <section class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft esporte">
+            <h2>Esporte</h2>
+        </div>
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/esporte.png" alt="Bikcraft esporte">
+        </div>
+        <div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft">
+        </div>
+        <div class="grid-8 produto_info">
+            <p>Percebemos, cada vez mais, que a contínua expansão
+                de nossa atividade estimula a padronização de alternativas às soluções ortodoxas.</p>
+            <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Design</li>
+                <li>Versatilidade</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retro">
+            <h2>Retro</h2>
+        </div>
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/retro.png" alt="Bikcraft retro">
+        </div>
+        <div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft">
+        </div>
+        <div class="grid-8 produto_info">
+            <p>Percebemos, cada vez mais, que a contínua expansão
+                de nossa atividade estimula a padronização de alternativas às soluções ortodoxas.</p>
+            <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Design</li>
+                <li>Versatilidade</li>
+            </ul>
+        </div>
+    </section>
+    <section class="orcamento">
+        <div class="container">
+            <h2 class="subtitulo">Orçamento</h2>
+            <form id="form_orcamento" class="form grid-8">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone">
+                <label for="espec">Especificações</label>
+                <textarea type="text" id="espec"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="orcamento_dados grid-8">
+                <h3>Dados</h3>
+                <span>+55 21999912344</span>
+                <span>orçamento@bikcraft.com</span>
+                <h3>Monte sua Bikcraft</h3>
+                <p>Escolha as especificações:</p>
+                <ul>
+                    <li>- Cores</li>
+                    <li>- Estilo</li>
+                    <li>- Medidas</li>
+                    <li>- Acessorios</li>
+                    <li>- E outros</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
     <section class="quebra">
